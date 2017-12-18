@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AE33D2151FC415F0008A25A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33D2141FC415F0008A25A6 /* AppDelegate.m */; };
-		AE33D2181FC415F0008A25A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33D2171FC415F0008A25A6 /* ViewController.m */; };
+		AE33D2181FC415F0008A25A6 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33D2171FC415F0008A25A6 /* MJViewController.m */; };
 		AE33D21B1FC415F1008A25A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE33D2191FC415F1008A25A6 /* Main.storyboard */; };
 		AE33D21D1FC415F1008A25A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE33D21C1FC415F1008A25A6 /* Assets.xcassets */; };
 		AE33D2201FC415F1008A25A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE33D21E1FC415F1008A25A6 /* LaunchScreen.storyboard */; };
 		AE33D2231FC415F2008A25A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33D2221FC415F2008A25A6 /* main.m */; };
+		AE33D2301FC41AD7008A25A6 /* UIView+MJToast.m in Sources */ = {isa = PBXBuildFile; fileRef = AE33D22F1FC41AD7008A25A6 /* UIView+MJToast.m */; };
+		AEA319471FCD3EE100665ACE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA319461FCD3EE100665ACE /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE33D2101FC415EF008A25A6 /* MJToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE33D2131FC415F0008A25A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE33D2141FC415F0008A25A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE33D2161FC415F0008A25A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE33D2171FC415F0008A25A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE33D2161FC415F0008A25A6 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		AE33D2171FC415F0008A25A6 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
 		AE33D21A1FC415F1008A25A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE33D21C1FC415F1008A25A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE33D21F1FC415F1008A25A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE33D2211FC415F1008A25A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE33D2221FC415F2008A25A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE33D22E1FC41AD7008A25A6 /* UIView+MJToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MJToast.h"; sourceTree = "<group>"; };
+		AE33D22F1FC41AD7008A25A6 /* UIView+MJToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJToast.m"; sourceTree = "<group>"; };
+		AEA319451FCD3EE100665ACE /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AEA319461FCD3EE100665ACE /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				AE33D2131FC415F0008A25A6 /* AppDelegate.h */,
 				AE33D2141FC415F0008A25A6 /* AppDelegate.m */,
-				AE33D2161FC415F0008A25A6 /* ViewController.h */,
-				AE33D2171FC415F0008A25A6 /* ViewController.m */,
+				AE33D2161FC415F0008A25A6 /* MJViewController.h */,
+				AE33D2171FC415F0008A25A6 /* MJViewController.m */,
+				AEA319451FCD3EE100665ACE /* TestViewController.h */,
+				AEA319461FCD3EE100665ACE /* TestViewController.m */,
+				AE33D22E1FC41AD7008A25A6 /* UIView+MJToast.h */,
+				AE33D22F1FC41AD7008A25A6 /* UIView+MJToast.m */,
 				AE33D2191FC415F1008A25A6 /* Main.storyboard */,
 				AE33D21C1FC415F1008A25A6 /* Assets.xcassets */,
 				AE33D21E1FC415F1008A25A6 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE33D2181FC415F0008A25A6 /* ViewController.m in Sources */,
+				AEA319471FCD3EE100665ACE /* TestViewController.m in Sources */,
+				AE33D2301FC41AD7008A25A6 /* UIView+MJToast.m in Sources */,
+				AE33D2181FC415F0008A25A6 /* MJViewController.m in Sources */,
 				AE33D2231FC415F2008A25A6 /* main.m in Sources */,
 				AE33D2151FC415F0008A25A6 /* AppDelegate.m in Sources */,
 			);
